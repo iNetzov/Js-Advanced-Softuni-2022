@@ -5,7 +5,7 @@ function circleArea(radius){
        output = (Math.PI * (radius*radius));
        output = output.toFixed(2);
     }else{
-        output = `We can not calculate the circle area, because we recive a ${isItNumber(radius)}`
+        output = `We can not calculate the circle area, because we receive a ${isItNumber(radius)}.`
     }
     console.log(output);
 

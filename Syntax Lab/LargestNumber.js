@@ -7,7 +7,7 @@ function findLargestNumber(numberOne, numberTwo, numberTree) {
     }else{
         largest = numberTree;
     }
-    console.log(`The largest number is ${largest}`);
+    console.log(`The largest number is ${largest}.`);
 }
 
 findLargestNumber(1,2,3);
