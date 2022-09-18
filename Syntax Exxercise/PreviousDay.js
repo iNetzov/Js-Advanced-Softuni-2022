@@ -6,7 +6,8 @@ function solve(year,month,day){
    function previousDay(date = new Date()){
     const previous = new Date(date.getTime());
     previous.setDate(date.getDate() - 1);
-    return previous;
+    let output = `${previous.getFullYear()}-${previous.getMonth()+1}-${previous.getDate()}`;
+    return output;
 }
 }
 
